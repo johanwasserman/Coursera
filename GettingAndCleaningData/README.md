@@ -7,6 +7,7 @@ What the script does:
 --------------------
 
 The script will use the environment working directory, retrieved with getwd()
+
 It will create a subdirectory called GettingAndCleaningData in the working directory, all files downloaded and manipulated by the script will be contained in this directory.
 The script will then download the zip file located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 For details of the data contained in the zip file, see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
