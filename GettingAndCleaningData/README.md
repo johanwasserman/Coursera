@@ -13,8 +13,4 @@ For details of the data contained in the zip file, see http://archive.ics.uci.ed
 
 The script will then format and clean the data from the zip file in to a tidy dataset, and save it to the file tidyHASmartPhoneData.txt
 
-<<<<<<< HEAD
 See codebook.md for a description of the tidy dataset and its columns.
-=======
-See codebook.md for a description of the tidy dataset and its columns.
->>>>>>> Coursea/master
