@@ -107,4 +107,8 @@ tidy <- master[, list(count = .N, average = mean(value)), by=key(master)]
 # some last minute cleanup
 rm(activities, features) #, master
 
+# write file and print a summary
+file <- paste(c(getwd(),"/","GettingAndCleaningData/", "tidyHASmartPhoneData.txt"), collapse="")
+write.table(tidy, file, quote = FALSE, sep = "\t", row.names = FALSE)
+
 summary(tidy)
