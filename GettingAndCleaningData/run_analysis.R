@@ -5,6 +5,7 @@ library("reshape2")
 # url of the source of the data
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 # to save the data localy 
+dir.create(file.path(getwd(), "GettingAndCleaningData"), showWarnings = FALSE)
 file <- paste(c(getwd(),"/","GettingAndCleaningData/", "SmartphoneData.zip"), collapse="")
 # download the source data
 download.file(url, file)
